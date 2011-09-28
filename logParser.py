@@ -10,7 +10,6 @@ nomeArquivoSaida = cadeiaProcurada.replace(" ", "_")
 arquivoSaida = file(nomeArquivoSaida + ".txt", "w")
 
 for linha in arquivoEntrada.readlines(): 
-	print linha,
 	if cadeiaProcurada in linha:
 		arquivoSaida.write(linha)
 
