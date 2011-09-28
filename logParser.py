@@ -2,11 +2,10 @@
 # _*_ encoding: utf-8 _*_
 # logParser.py - le linhas interessantes de um determinado arquivo e escreve outro com este subconjunto
 
-linhasInteressantes = list()
-
 cadeiaProcurada = raw_input("Escolha o padrao que deseja parsear: ")
+arquivoDeBusca = raw_input("Nome do arquivo de busca: ")
 
-arquivoEntrada = file("teste.txt")
+arquivoEntrada = file(arquivoDeBusca)
 nomeArquivoSaida = cadeiaProcurada.replace(" ", "_")
 arquivoSaida = file(nomeArquivoSaida + ".txt", "w")
 
