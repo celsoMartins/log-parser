@@ -1,0 +1,4 @@
+testando leitura de arquivos em python
+multiplas linhas e claro
+acentuação é outro teste
+e PaRa fiNalIzar UPPER e down cases
